@@ -59,18 +59,18 @@ option {
 
     display: inline-block;
     color: white;
-    border: solid;
+    /*border: solid;
     border-width: 1px;
-    border-color: red;
+    border-color: red;*/
     padding:2%;
     vertical-align:top;
 }
 .column2 {
     display: inline-block;
     color: white;
-    border: solid;
+   /* border: solid;
     border-width: 1px;
-    border-color: red;
+    border-color: red;*/
     padding: 2%;
     vertical-align:top;
 }
@@ -78,9 +78,9 @@ option {
 .column3 {
     display:inline-block;
     color: white;
-    border: solid;
+    /*border: solid;
     border-width: 1px;
-    border-color: red;
+    border-color: red;*/
     padding: 2%;
     vertical-align:top;
 }
