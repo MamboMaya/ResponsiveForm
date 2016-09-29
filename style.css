@@ -1,0 +1,86 @@
+﻿body {
+    background-color: cornflowerblue;
+}
+
+*, *:after, *:before {
+    box-sizing:border-box;
+}
+input, select, textarea {
+    width:300px;
+}
+
+.grid {
+    font-family: serif;
+    align-self:center;
+    background-color: cornflowerblue;
+    width: 100%;
+}
+
+input {
+    border-width:3px;
+    border-color: white;
+    background-color: cornflowerblue;
+    font-family: serif;
+    color: white;
+}
+
+.grid :hover {
+    border-color: darkblue;
+
+}
+textarea {
+    /*width: 250px;*/
+    height: 150px;
+    border-width:2px;
+    border-color: white;
+    background-color: cornflowerblue;
+}
+
+select {
+    border-width:1px;
+    border-color: grey;
+    background-color: cornflowerblue;
+    font-family: serif;
+    color: white;
+    border-radius: 5px;
+}
+ {
+    color: black;
+    height:auto;
+    width: 1em;
+}
+
+option {
+    background-color: lightgray;
+    color: black;
+}
+
+.column1 {
+
+    display: inline-block;
+    color: white;
+    border: solid;
+    border-width: 1px;
+    border-color: red;
+    padding:2%;
+    vertical-align:top;
+}
+.column2 {
+    display: inline-block;
+    color: white;
+    border: solid;
+    border-width: 1px;
+    border-color: red;
+    padding: 2%;
+    vertical-align:top;
+}
+
+.column3 {
+    display:inline-block;
+    color: white;
+    border: solid;
+    border-width: 1px;
+    border-color: red;
+    padding: 2%;
+    vertical-align:top;
+}
